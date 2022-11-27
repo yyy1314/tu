@@ -19,7 +19,7 @@ export const getFileSuffix = (filename: string) => {
 }
 
 export const isImage = (suffix: string): boolean => {
-  return /(png|jpg|gif|jpeg|webp|avif|svg\+xml|image\/x-icon)$/.test(suffix)
+  return /(png|apk|mp4|gif|jpeg|webp|avif|svg\+xml|image\/x-icon)$/.test(suffix)
 }
 
 /**
